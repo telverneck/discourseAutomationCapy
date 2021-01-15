@@ -1,14 +1,14 @@
 require 'report_builder'
 
 Before do
-
+@login = LoginPage.new
 end
 
 After do 
     shot = page.save_screenshot('log/shot.png')
     file = File.open(shot, 'rb').read
     screenshot = Base64.encode64(file)
-    embed(screenshot, 'image/png', 'Screenshot')
+     embed(screenshot, 'image/png', 'Screenshot') 
 end
 
 

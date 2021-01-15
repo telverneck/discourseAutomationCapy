@@ -3,6 +3,7 @@
 Funcionalidade:Login 
     Descricao
 
+    @doing
     Cenario:Nova sessao
         Dado que tenho um email "telverneck@hotmail.com"
         Quando eu submeto meu email
@@ -19,7 +20,7 @@ Funcionalidade:Login
         Quando eu submeto meu email
         Entao devo ver uma mensagem de alerta "Please enter your email or username, and password."
 
-    @doing
+    
     Esquema do Cenario: casos em comum 
         Dado que tenho um email "<email>"
         Quando eu submeto meu email
