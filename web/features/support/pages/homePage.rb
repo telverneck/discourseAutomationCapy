@@ -1,5 +1,5 @@
 class HomePage
-    attr_reader :searchButton, :searchText, :optionButton, :preliminarSearchResults
+    attr_reader :searchButton, :searchText, :optionButton, :preliminarSearchResults, :noResults
     
     include Capybara::DSL
 
@@ -9,6 +9,7 @@ class HomePage
         @optionButton = ".d-label"
         @preliminarSearchResults = ".results"
         @results = ".search-results"
+        @noResults = ".no-results"
       
     end
 
@@ -30,8 +31,8 @@ class HomePage
         return find(@preliminarSearchResults)
     end
 
-    def containsResults?
-        return page.has_css?(@results)
+    def noResultsMessage
+        return find(@noResults)
     end
     
 

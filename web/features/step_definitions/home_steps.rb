@@ -9,3 +9,7 @@ end
 Entao('devo ver o resultado encontrado') do
     expect(@home.containsResults?).to be true
 end
+
+Entao('devo ver a mensagem {string}') do |mensagem|
+    expect(@home.noResultsMessage).to have_text(mensagem)
+end
