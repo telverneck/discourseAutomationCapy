@@ -6,4 +6,5 @@ gem "selenium-webdriver"
 gem "rspec"
 gem "capybara"
 gem "report_builder"
+gem "site_prism"
 

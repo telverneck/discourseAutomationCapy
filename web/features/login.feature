@@ -1,9 +1,10 @@
 #language:pt
 
 Funcionalidade:Login 
-    Descricao
+    Verificar a Funcionalidade de Login na pagina DEMO, Usuario deve inserir os 
+    dados para que entao possa visualizar a area de gerenciamento com controle de dados.
 
-    @doing
+    @smoke
     Cenario:Nova sessao
         Dado que tenho um email "telverneck@hotmail.com"
         Quando eu submeto meu email
@@ -20,7 +21,7 @@ Funcionalidade:Login
         Quando eu submeto meu email
         Entao devo ver uma mensagem de alerta "Please enter your email or username, and password."
 
-    
+    @smoke
     Esquema do Cenario: casos em comum 
         Dado que tenho um email "<email>"
         Quando eu submeto meu email

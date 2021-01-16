@@ -5,7 +5,6 @@ Dado('que tenho um email {string}') do |email|
 end  
 
 Quando('eu submeto meu email') do
-    @login.accessWebPage("https://try.discourse.org")
     @login.login(@email, @senha)
    
 end
