@@ -3,7 +3,7 @@ require 'report_builder'
 Before do
 @login = LoginPage.new
 @home = HomePage.new
-@login.accessWebPage("https://try.discourser.org")
+@login.accessWebPage("https://try.discourse.org")
 end
 
 After do 
