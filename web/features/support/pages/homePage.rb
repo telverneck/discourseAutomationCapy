@@ -31,6 +31,10 @@ class HomePage
         return find(@preliminarSearchResults)
     end
 
+    def containsResults?
+        return page.has_css?(@results)         
+    end
+
     def noResultsMessage
         return find(@noResults)
     end
