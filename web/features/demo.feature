@@ -15,12 +15,13 @@ Funcionalidade:DEMO
         Entao devo ver a mensagem "<resultado>"
 
     Exemplos:
-    |busca                   |resultado                       |
-    |no resultsss            |No results found.               |
-    |a                       |Your search term is too short.  | 
-    |.+                      |Your search term is too short.  | 
-    |\n \n \n \n \n \n       |Your search term is too short.  | 
-    |0,                      |Your search term is too short.  |
-    |--                      |Your search term is too short.  |
-    |#                       |Your search term is too short.  |
+    |busca                           |resultado                       |
+    |no resultsss                    |No results found.               |
+    |a                               |Your search term is too short.  | 
+    |.+                              |Your search term is too short.  | 
+    |\n \n \n \n \n \n               |Your search term is too short.  | 
+    |0,                              |Your search term is too short.  |
+    |--                              |Your search term is too short.  |
+    |#                               |Your search term is too short.  |
+    |web\features\largeString.txt    |Your search term is too short.  |
      
