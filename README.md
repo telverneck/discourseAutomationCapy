@@ -8,7 +8,7 @@
 - Requires Ruby 2.7 or higher Windows: https://rubyinstaller.org/downloads/
 - selenium webdriver is requiered in the windows PATH
 
-after downloading the project, use the command to install all Ruby Gems:
+Note: open the Terminal in WEB folder and uses the command to install all Ruby Gems:
 
 ```shell
 gem install bundler
@@ -19,17 +19,18 @@ install all gems in Gemfile:
 bundler install
 ```
 
-## Commands:
-full test cycle:
+## Test run:
+- full test cycle:
 
-cucumber:
 ```shell
 cucumber
 ```
 
-Smoke test::
+- Smoke test::
 ```shell
 cucumber -t @smoke
 ```
 
 ## All reports and screenshots are being located in the folder "Log"
+- web\log
+
