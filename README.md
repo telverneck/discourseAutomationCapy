@@ -3,6 +3,8 @@
 # Author: Telmo Rodrigues Correa
 
 - This is only for fun, play around with Cucumber automation using Discourse web site
+- Also using Capybara framework and Rspec
+- Ruby <3
 
 ## Installation:
 - Requires Ruby 2.7 or higher Windows: https://rubyinstaller.org/downloads/
